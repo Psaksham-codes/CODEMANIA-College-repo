@@ -22,7 +22,7 @@ int main()
     cout<<"days above 2GB:"<<count<<endl;
     if(sum<12)
     cout<<"LOW USAGE OF DATA"<<endl;
-    else if(sum>=12||sum<=18)
+    else if(sum>=12 && sum<=18)
     cout<<"MODERATE USAGE OF DATA"<<endl;
     else
     cout<<"HIGH USAGE OF DATA"<<endl;
